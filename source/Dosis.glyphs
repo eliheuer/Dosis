@@ -2,8 +2,7 @@
 .appVersion = "1141";
 DisplayStrings = (
 A,
-"Á",
-"á"
+"Á"
 );
 copyright = "Copyright 2011 The Dosis Project Authors (impallari@gmail.com)";
 customParameters = (
@@ -36,7 +35,7 @@ value = IMPA;
 date = "2016-11-17 21:50:23 +0000";
 designer = "EdgarTolentino, PabloImpallari, IginoMarini";
 designerURL = "http://www.impallari.com";
-familyName = "Dosis-v2031b";
+familyName = Dosis;
 featurePrefixes = (
 {
 automatic = 1;
