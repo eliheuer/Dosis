@@ -5,6 +5,10 @@
 ## Dosis Font
 by Edgar Tolentino, Pablo Impallari, Igino Marini
 
+## Variable Font
+<!-- Updated image from variable mastering fork -->
+![Orbitron](https://github.com/eliheuer/dosis/raw/vf-mastering/docs/images/animated-specimen.gif)
+
 ## Description
 Dosis is a very simple, rounded, sans serif family.
 The lighter weights are minimalist. The bolder weights have more personality. The medium weight is nice and balanced.
