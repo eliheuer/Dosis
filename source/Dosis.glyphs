@@ -1,8 +1,8 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"/fi",
-"/fl"
+"/quoteleft",
+"/secondtonechinese"
 );
 copyright = "Copyright 2011 The Dosis Project Authors (impallari@gmail.com)";
 customParameters = (
@@ -60031,12 +60031,12 @@ rightKerningGroup = u;
 {
 color = 4;
 glyphname = f_f;
-lastChange = "2018-07-11 20:13:17 +0000";
+lastChange = "2018-07-16 15:44:51 +0000";
 layers = (
 {
 anchors = (
 {
-name = caret_1;
+name = caret;
 position = "{287, 0}";
 }
 );
@@ -60171,8 +60171,8 @@ width = 587;
 {
 anchors = (
 {
-name = caret_1;
-position = "{337, 0}";
+name = caret;
+position = "{349, 0}";
 }
 );
 hints = (
@@ -111069,7 +111069,7 @@ unicode = 0311;
 {
 color = 0;
 glyphname = commaturnedabovecomb;
-lastChange = "2016-11-27 05:03:48 +0000";
+lastChange = "2018-07-16 16:00:32 +0000";
 layers = (
 {
 anchors = (
@@ -111082,8 +111082,13 @@ name = top;
 position = "{0, 0}";
 }
 );
+components = (
+{
+name = quoteleft;
+}
+);
 layerId = UUID0;
-width = 800;
+width = 156;
 },
 {
 anchors = (
@@ -111096,8 +111101,13 @@ name = top;
 position = "{0, 0}";
 }
 );
+components = (
+{
+name = quoteleft;
+}
+);
 layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 800;
+width = 191;
 }
 );
 unicode = 0312;
