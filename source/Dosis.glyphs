@@ -1,8 +1,10 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"/quoteleft",
-"/secondtonechinese"
+"/dieresisbelowcomb",
+"/breve",
+"/caroncomb.alt",
+"/commaturnedabovecomb"
 );
 copyright = "Copyright 2011 The Dosis Project Authors (impallari@gmail.com)";
 customParameters = (
@@ -108476,9 +108478,9 @@ rightMetricsKey = acutecomb;
 unicode = 030B;
 },
 {
-color = 0;
+color = 4;
 glyphname = caroncomb.alt;
-lastChange = "2016-11-27 04:59:39 +0000";
+lastChange = "2018-07-17 21:49:47 +0000";
 layers = (
 {
 anchors = (
@@ -110469,9 +110471,9 @@ width = 375;
 unicode = 0304;
 },
 {
-color = 0;
+color = 4;
 glyphname = hookabovecomb;
-lastChange = "2016-11-27 04:59:39 +0000";
+lastChange = "2018-07-17 21:50:27 +0000";
 layers = (
 {
 anchors = (
@@ -111069,13 +111071,13 @@ unicode = 0311;
 {
 color = 0;
 glyphname = commaturnedabovecomb;
-lastChange = "2018-07-16 16:00:32 +0000";
+lastChange = "2018-07-17 21:47:31 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{0, 500}";
+position = "{49, 500}";
 },
 {
 name = top;
@@ -111337,37 +111339,49 @@ width = 226;
 unicode = 0323;
 },
 {
-color = 0;
+color = 4;
 glyphname = dieresisbelowcomb;
-lastChange = "2016-11-27 05:03:48 +0000";
+lastChange = "2018-07-17 21:37:37 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, 0}";
+position = "{153, 0}";
 },
 {
 name = bottom;
-position = "{0, 0}";
+position = "{153, -146}";
+}
+);
+components = (
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, -795}";
 }
 );
 layerId = UUID0;
-width = 800;
+width = 309;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, 0}";
+position = "{211, 0}";
 },
 {
 name = bottom;
-position = "{0, 0}";
+position = "{211, -180}";
+}
+);
+components = (
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, -770}";
 }
 );
 layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 800;
+width = 422;
 }
 );
 unicode = 0324;
@@ -112393,37 +112407,49 @@ width = 256;
 unicode = 0328;
 },
 {
-color = 0;
+color = 4;
 glyphname = brevebelowcomb;
-lastChange = "2016-11-27 05:03:48 +0000";
+lastChange = "2018-07-17 21:44:45 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, 0}";
+position = "{160, 0}";
 },
 {
 name = bottom;
-position = "{0, 0}";
+position = "{161, -167}";
+}
+);
+components = (
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 0, -784}";
 }
 );
 layerId = UUID0;
-width = 800;
+width = 322;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{0, 0}";
+position = "{195, 0}";
 },
 {
 name = bottom;
-position = "{0, 0}";
+position = "{195, -195}";
+}
+);
+components = (
+{
+name = brevecomb;
+transform = "{1, 0, 0, 1, 0, -771}";
 }
 );
 layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 800;
+width = 393;
 }
 );
 unicode = 032E;
@@ -112737,7 +112763,7 @@ unicode = 02C9;
 {
 color = 0;
 glyphname = fourthtonechinese;
-lastChange = "2016-11-26 23:46:24 +0000";
+lastChange = "2018-07-17 21:44:39 +0000";
 layers = (
 {
 layerId = UUID0;
