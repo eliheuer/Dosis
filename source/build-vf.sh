@@ -193,7 +193,7 @@ echo "[+] Done"
 # v-tt2
 
 # Done :-)
-#cd source
+cd source
 echo '
 *** Done ******************************************************'
 echo "[+] Variable font output avaiable in the fonts directory."
