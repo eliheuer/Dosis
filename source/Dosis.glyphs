@@ -1,14 +1,11 @@
 {
 .appVersion = "1141";
 DisplayStrings = (
-"/commaturnedmod",
-"/quoteleft/commaturnedabovecomb",
-"/apostrophemod",
-"/commaturnedabovecomb",
-"Å",
-"/Hbrevebelow",
-"/eight.tf",
-"/figuredash"
+A,
+"/circumflexcomb",
+"/circumflexcomb/acutecomb/circumflexcomb",
+"/acutecomb/brevecomb/acutecomb",
+NoNoN
 );
 copyright = "Copyright 2011 The Dosis Project Authors (impallari@gmail.com)";
 customParameters = (
@@ -10766,7 +10763,7 @@ unicode = 1E42;
 {
 color = 4;
 glyphname = N;
-lastChange = "2016-11-26 19:38:57 +0000";
+lastChange = "2018-07-18 02:24:59 +0000";
 layers = (
 {
 anchors = (
@@ -42814,7 +42811,7 @@ unicode = 00F1;
 {
 color = 4;
 glyphname = o;
-lastChange = "2016-12-07 07:59:56 +0000";
+lastChange = "2018-07-18 02:21:46 +0000";
 layers = (
 {
 anchors = (
@@ -100759,21 +100756,6 @@ width = 771;
 unicode = 2191;
 },
 {
-glyphname = northEastArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2197;
-},
-{
 color = 4;
 glyphname = rightArrow;
 lastChange = "2016-11-26 22:49:33 +0000";
@@ -101004,21 +100986,6 @@ width = 771;
 unicode = 2192;
 },
 {
-glyphname = southEastArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2198;
-},
-{
 color = 4;
 glyphname = downArrow;
 lastChange = "2016-11-26 22:49:33 +0000";
@@ -101245,21 +101212,6 @@ width = 771;
 }
 );
 unicode = 2193;
-},
-{
-glyphname = southWestArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2199;
 },
 {
 color = 4;
@@ -101490,51 +101442,6 @@ width = 771;
 }
 );
 unicode = 2190;
-},
-{
-glyphname = northWestArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2196;
-},
-{
-glyphname = leftRightArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2194;
-},
-{
-glyphname = upDownArrow;
-lastChange = "2018-07-17 22:33:41 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "228CC867-ECE3-4F82-B853-1E58141B916C";
-width = 600;
-}
-);
-unicode = 2195;
 },
 {
 color = 0;
@@ -108232,7 +108139,7 @@ unicode = 0300;
 {
 color = 4;
 glyphname = acutecomb;
-lastChange = "2016-11-27 01:14:46 +0000";
+lastChange = "2018-07-18 02:00:19 +0000";
 layers = (
 {
 anchors = (
@@ -109869,7 +109776,7 @@ unicode = 030C;
 {
 color = 4;
 glyphname = brevecomb;
-lastChange = "2016-11-27 04:41:36 +0000";
+lastChange = "2018-07-18 02:11:58 +0000";
 layers = (
 {
 anchors = (
@@ -116567,6 +116474,10 @@ ampersand = -7;
 hbar = 8;
 v = -36;
 };
+acutecomb = {
+brevecomb = -20;
+circumflexcomb = -20;
+};
 ampersand = {
 "@MMK_R_T" = -67;
 "@MMK_R_W" = -36;
@@ -116632,6 +116543,12 @@ four = -23;
 six = -11;
 v = -29;
 zero = -10;
+};
+brevecomb = {
+acutecomb = -20;
+};
+circumflexcomb = {
+acutecomb = -20;
 };
 dcaron = {
 "@MMK_R_b" = 158;
