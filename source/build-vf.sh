@@ -88,25 +88,34 @@ fi
 echo '[:] Done'
 sleep $SLEEPTIME
 
+
+
+
+
+
 # Get filename and set CONSTANTS
-echo "
-*** Getting Name from .glyphs source **************************"
-sleep $SLEEPTIME
-for i in *.glyphs; do
-    echo "[+] \c"
-    echo $i
-    n=${i%.*}                   # remove the extension `.glyphs`
-    echo "[+] Filename set:\c"
-    echo " $n"
-    done
-sleep $SLEEPTIME
-FONTSOURCE=$n.glyphs
-echo "[+] FONTSOURCE = \c"
-echo $FONTSOURCE
-FONTFILE=$n-VF.ttf
-echo "[+] FONTFILE = \c"
-echo $FONTFILE
-echo '[:] Done'
+#echo "
+#*** Getting Name from .glyphs source **************************"
+#sleep $SLEEPTIME
+#for i in *.glyphs; do
+#    echo "[+] \c"
+#    echo $i
+#    n=${i%.*}                   # remove the extension `.glyphs`
+#    echo "[+] Filename set:\c"
+#    echo " $n"
+#    done
+#sleep $SLEEPTIME
+#FONTSOURCE=$n.glyphs
+#echo "[+] FONTSOURCE = \c"
+#echo $FONTSOURCE
+#FONTFILE=$n-VF.ttf
+#echo "[+] FONTFILE = \c"
+#echo $FONTFILE
+#echo '[:] Done'
+
+# TMP
+FONTSOURCE=Dosis.glyphs
+FONTFILE=Dosis-VF.ttf
 
 # Move to the git repo root directory
 echo "
